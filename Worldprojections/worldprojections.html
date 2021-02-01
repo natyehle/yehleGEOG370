@@ -6,67 +6,65 @@
     <title>Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h1>In this project I learned how to display maps in different projections</h1>
     
     <h2 style="color:rgb(120, 199, 245)">Describe in your own words how you displayed the map in different projections using QGIS</h2>
     <p>You can write a paragraph here</p>
     
     <h2>World Geodetic System of 1984 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map is used by the United States Department of Defense. It is also used by many countries for aviation navigation. It preserves shape, but does not have equal-area especially by the poles.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff is a modified azimuthal projection, where the coordinate system follows an ellipse pattern. It is neither equal-area nor conformal. It is appropriate for small-scale mapping where accurate area is not required.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     
     <h2>Pseudo Mercator</h2>
-    <h3>Some observations</h3>
+    <h3>The Mercator is the de facto standard for Web-based mapping services, such as Google Maps. Shape is preserved extremely well, but there is size distortion. For example on this map, Greenland and Africa look to be the same size, but in reality Africa is 14 times larger.</h3>
     <a href=".//maps/pseudomercator.png">
     <img src=".//maps/pseudomercator.png" alt="3857" width='500px'>
     </a>
     
     <h2>Winkle I Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Winkle I projection is a pseudo-cylindrical map with parallel longitudes, but lattitudes that follow an ellipse shape. It is neither equal-area nor conformal. The Winkle I is appropriate for general world map use, but not typically advised because there are better options.</h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="Winkle1" width='500px'>
     </a>
 
-    <h2>Equal Area Cylindrical Projection</h2>
-    <h3>Some observations</h3>
+    <h2>Cylindrical Equal Area Projection</h2>
+    <h3>This cylindrical projection displays the world as a rectangle while maintaining relative area. It is equal-area, but shapes are distorted the further they are from the equator. This projection is appropriate for large-scale mapping of areas near the equator, such as Indonesia.</h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="EAcylinder" width='500px'>
     </a> 
     
     <h2>Equidistant Conic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The equidistant conic projection displays the Earth as a flattened cone. On this projection, shapes, areas, distances, and directions are generally distorted. The equidistant conic projection is appropriate for land masses extending east-to-west at mid-latitudes when it is not necessary to maintain area, directions, and angles. It is usually used for mapping Russia.</h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="conic" width='500px'>
     </a>
 
     <h2>North Pole Azimuthal Equidistant Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In this projection, the Earth is projected on to a flat surface from the North Pole. This projection preserves distance and direction from the central point on the map. However, shape, scale, and area distortion increase further away from the central point. Although it can be used for world maps, this projection is usually used for mapping of the poles.</h3>
     <a href=".//maps/102016.png">
     <img src=".//maps/102016.png" alt="azimuthal" width='500px'>
     </a>
 
     <h2>Bonne Sphere Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection, despite the name, is pseudo-conic. It is equal-area, but not conformal. Historically, it was used during the 19th and early 20th centuries for atlas maps of Asia, Australia, Europe, and North America. Today, because there are more functional options, it is used artistically to show the world in a heart shape.</h3>
     <a href=".//maps/53024.png">
     <img src=".//maps/53024.png" alt="bonne" width='500px'>
     </a>
 
     <h2>Polyconic World Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is made by alining  an infinite number of cones along the central meridian. It is neither conformal nor equal-area, except along the central meridian. This projection does not have many modern day usages; however, it was used by the United States Geological Survery for toppgraphic quad sheets from 1886-1957.</h3>
     <a href=".//maps/54021.png">
     <img src=".//maps/54021.png" alt="polyconic" width='500px'>
     </a>
 
-    <h2 style="color:rgb(120, 199, 245)">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
